@@ -1,5 +1,10 @@
 # Moon PIXELS — Your SMP Guide
 
+## Live Site
+
+Check out the Moon PIXELS info site live here:  
+[https://dorponbaruah.github.io/Moon-PIXELS-Website/](https://dorponbaruah.github.io/Moon-PIXELS-Website/)
+
 Hey! This is the official info site for Moon PIXELS — everything you need to know about the server, all in one place.
 
 ## What You’ll Find Here
