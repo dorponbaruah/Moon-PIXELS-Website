@@ -1,0 +1,57 @@
+[{
+  "name": "<color=#a3c3d9>Resident</color>",
+  "price": "<color=#bec1c2>Free</color>",
+  "features": [
+    "<strong>*Access to all the basic commands*</strong>",
+    "Sethome limit <strong>1</strong>",
+    "AuctionHouse Sell limit <strong>5</strong>",
+    "AuctionHouse Bid limit <strong>3</strong>",
+    "PlayerWarp set limit <strong>2</strong>",
+    "ChestShop creation limit <strong>4</strong>"
+  ]
+},
+{
+  "name": "<color=#9cffd2>Voter</color>",
+  "price": "<color=#9fc2c9>Vote = 24h Access</color>",
+  "features": [
+    "Permission to open the <strong><span style=\"color: #00aaaa;\">Vote Crate</span></strong>",
+    "Sethome limit <strong>3</strong>",
+    "AuctionHouse Sell limit <strong>7</strong>",
+    "AuctionHouse Bid limit <strong>4</strong>",
+    "Can use the <code>/dback</code> command",
+    "Can use the <code>/nick</code> command",
+    "Can use the <code>/sit</code> command"
+  ]
+},
+{
+  "name": "<gradient=#c65ce0,#8014d9>Voidblade</gradient>",
+  "stopglow": "#8e30db",
+  "price": "<color=#41e054>Ʉ360,000</color>",
+  "features": [
+    "Instantly get <strong>3000 <span style=\"color: #fff345;\">claimblocks</span></strong>",
+    "Instantly get <strong>4 <span style=\"color: #334bff;\">Twilight Crate</span></strong> keys",
+    "Instantly get <strong>2 <span style=\"color: #c425c4;\">Starlit Crate</span></strong> keys",
+    "Sethome limit <strong>5</strong>",
+    "AuctionHouse Sell limit <strong>10</strong>",
+    "AuctionHouse Bid limit <strong>7</strong>",
+    "PlayerWarp set limit <strong>4</strong>",
+    "Inherits full permissions from the <strong><span style=\"color: #9cffd2;\">Voter</span> Rank</strong>",
+    "Access to the <code>/kit Voidblade</code> — featuring the signature weapons that define the rank."
+  ]
+},
+{
+  "name": "<gradient=#fdffa3,#afff24>Soulguard</gradient>",
+  "stopglow": "#afff24",
+  "price": "<color=#41e054>Ʉ440,000</color>",
+  "features": [
+    "Instantly get <strong>4000 <span style=\"color: #fff345;\">claimblocks</span></strong>",
+    "Instantly get <strong>5 <span style=\"color: #334bff;\">Twilight Crate</span></strong> keys",
+    "Instantly get <strong>4 <span style=\"color: #c425c4;\">Starlit Crate</span></strong> keys",
+    "Sethome limit <strong>7</strong>",
+    "AuctionHouse Sell limit <strong>11</strong>",
+    "AuctionHouse Bid limit <strong>7</strong>",
+    "PlayerWarp set limit <strong>4</strong>",
+    "Inherits full permissions from the <strong><span style=\"color: #9cffd2;\">Voter</span> Rank</strong>",
+    "Can use the <code>/heal</code> command",
+    "Access to the <code>/kit Soulguard</code> — containing the unique armor set and shield that represent the rank."  ]
+}]

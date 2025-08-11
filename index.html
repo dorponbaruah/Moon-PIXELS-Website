@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Moon PIXELS - SMP</title>
+  <meta name="description" content="Discover your place in the pixels of the moon" />
+  
+  <link rel="icon" href="images/moon.png" type="image/x-icon">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <meta name="theme-color" content="#081028">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preload" href="images/moon.png" as="image">
+</head>
+
+<body class="theme-dark">
+  
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="moon-preloader" aria-hidden="true"></div>
+      <div class="loader-text">Moon PIXELS</div>
+    </div>
+  </div>
+  
+  <header id="site-header" class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">
+        <img src="images/moon.png" alt="Moon PIXELS" class="brand-icon" />
+        <span class="brand-name">Moon PIXELS</span>
+      </a>
+      
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="#information">Information</a>
+        <a href="#features">Features</a>
+        <a href="#ranks">Ranks</a>
+        <a href="#commands">Commands</a>
+        <a href="https://play-minecraft-servers.com/minecraft-servers/moon-pixels/?tab=vote" class="btn ghost" id="voteBtn" target="_blank" rel="noopener">Vote</a>
+        <a href="https://discord.gg/PPaWPhq7MA" class="btn primary" id="discordBtn" target="_blank" rel="noopener">Discord</a>
+      </nav>
+      
+      <button id="mobileToggle" class="mobile-toggle" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+  
+  <aside id="mobileSidebar" class="mobile-sidebar" aria-hidden="true">
+    <div class="mobile-sidebar-inner">
+      <nav class="mobile-nav">
+        <a href="#information" class="mobile-link">Information</a>
+        <a href="#features" class="mobile-link">Features</a>
+        <a href="#ranks" class="mobile-link">Ranks</a>
+        <a href="#commands" class="mobile-link">Commands</a>
+        <div class="mobile-actions">
+          <a href="https://play-minecraft-servers.com/minecraft-servers/moon-pixels/?tab=vote" class="btn ghost" id="voteBtnMobile" target="_blank" rel="noopener">Vote</a>
+          <a href="https://discord.gg/PPaWPhq7MA" class="btn primary" id="discordBtnMobile" target="_blank" rel="noopener">Discord</a>
+        </div>
+      </nav>
+    </div>
+  </aside>
+  
+  <main id="main">
+    
+    <section id="hero" class="hero" data-section>
+      
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-title">Moon PIXELS</h1>
+          <p class="hero-sub">✧ Discover your place in the pixels of the moon ✧</p>
+          
+          <div class="hero-buttons">
+            <a id="discordHero" class="btn primary" href="https://discord.gg/PPaWPhq7MA" target="_blank" rel="noopener">Join Discord</a>
+            <a id="voteHero" class="btn ghost" href="https://play-minecraft-servers.com/minecraft-servers/moon-pixels/?tab=vote" target="_blank" rel="noopener">Vote</a>
+          </div>
+          
+          <p class="hero-meta">IP: <strong>moonpixels.mc.gg</strong> &nbsp; • &nbsp; Bedrock Port: <strong>19132</strong></p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="information" class="section" data-section>
+      <div class="container">
+        <h2 class="section-title">Welcome</h2>
+        <p class="section-desc">
+          Created by <strong class="creator">@dorpon</strong>, your gateway to a unique SMP.
+          <br>
+          Discover the <strong class="rank less-bold">ranks</strong>, <strong class="feature less-bold">features</strong>,
+          and <strong class="command less-bold">commands</strong> that define
+          <strong class="server-name">Moon PIXELS</strong>. See what awaits.
+        </p>
+      </div>
+    </section>
+    
+    <section id="features" class="section features-section" data-section>
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <p class="section-desc">Explore the core features that make Moon PIXELS unique.</p>
+        
+        <div id="featuresGrid" class="grid features-grid" aria-live="polite">
+        </div>
+      </div>
+    </section>
+    
+    <section id="ranks" class="section ranks-section" data-section>
+      <div class="container">
+        <h2 class="section-title">Ranks</h2>
+        <p class="section-desc">Progress through ranks, unlock perks, and show off your title.</p>
+        
+        <div id="ranksGrid" class="grid ranks-grid" aria-live="polite">
+        </div>
+      </div>
+    </section>
+    
+    <section id="commands" class="section commands-section" data-section>
+      <div class="container">
+        <div class="commands-header">
+          <div>
+            <h2 class="section-title">Commands</h2>
+            <p class="section-desc">Search, filter and learn command usage quickly.</p>
+          </div>
+          
+          <div class="commands-controls">
+            <input id="commandSearch" class="input search" type="search" placeholder="Search commands..." aria-label="Search commands" />
+            <select id="commandCategory" class="input select" aria-label="Filter by category">
+              <option value="">All categories</option>
+            </select>
+          </div>
+        </div>
+        
+        <div id="commandsGrid" class="grid commands-grid" aria-live="polite">
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section contact-section" data-section>
+      <div class="container">
+        <h2 class="section-title">Connect</h2>
+        <p class="section-desc">Join our Discord to meet players, vote for the server, and check updates.</p>
+        
+        <div class="contact-actions">
+          <a id="discordFooter" class="btn primary" href="https://discord.gg/PPaWPhq7MA" target="_blank" rel="noopener">Open Discord</a>
+          <a id="voteFooter" class="btn ghost" href="https://play-minecraft-servers.com/minecraft-servers/moon-pixels/?tab=vote" target="_blank" rel="noopener">Vote</a>
+        </div>
+        
+        <footer class="site-footer">
+          <small>© <span id="year"></span> Moon PIXELS — Built with care by Dorpon.</small>
+        </footer>
+      </div>
+    </section>
+    
+  </main>
+  
+  <script defer src="script.js"></script>
+</body>
+
+</html>

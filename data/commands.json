@@ -1,0 +1,547 @@
+[
+{
+  "name": "<color=#A8D0FF>/spawn</color>",
+  "usage": "/spawn",
+  "example": "/spawn",
+  "description": "Teleport to the server's main spawn point.",
+  "category": "General"
+},
+{
+  "name": "<color=#B6E3B6>/warps</color>",
+  "usage": "/warps",
+  "example": "/warps",
+  "description": "View the list of all available warps.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/warp</color>",
+  "usage": "/warp [warp name]",
+  "example": "/warp shop",
+  "description": "Teleport to a specific warp location.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/homes</color>",
+  "usage": "/homes",
+  "example": "/homes",
+  "description": "View your list of saved homes.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/home</color>",
+  "usage": "/home [home name]",
+  "example": "/home base",
+  "description": "Teleport to one of your saved homes.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/back</color>",
+  "usage": "/back",
+  "example": "/back",
+  "description": "Return to your previous location.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#C7C9CA>/afk</color>",
+  "usage": "/afk",
+  "example": "/afk",
+  "description": "Set your status to Away From Keyboard.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFE3A3>/balance</color>",
+  "usage": "/balance",
+  "example": "/balance",
+  "description": "Check your current money balance.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/baltop</color>",
+  "usage": "/baltop",
+  "example": "/baltop",
+  "description": "View the top players by balance.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#B6E3B6>/dback</color>",
+  "usage": "/dback",
+  "example": "/dback",
+  "description": "Return to your death location.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#C7C9CA>/ignore</color>",
+  "usage": "/ignore [player name]",
+  "example": "/ignore DorponTTB",
+  "description": "Ignore messages from a player.",
+  "category": "Others"
+},
+{
+  "name": "<color=#D9B3FF>/kits</color>",
+  "usage": "/kits",
+  "example": "/kits",
+  "description": "List all the available kits.",
+  "category": "Inventory"
+},
+{
+  "name": "<color=#D9B3FF>/kit</color>",
+  "usage": "/kit [kit name]",
+  "example": "/kit Voidblade",
+  "description": "Get a kit if you have permission, or preview it.",
+  "category": "Inventory"
+},
+{
+  "name": "<color=#C7C9CA>/mail send</color>",
+  "usage": "/mail send [playerName] [message]",
+  "example": "/mail send DorponTTB Hello!",
+  "description": "Send a mail message to a player.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/mail read</color>",
+  "usage": "/mail read",
+  "example": "/mail read",
+  "description": "Read your mail messages.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/mail clear</color>",
+  "usage": "/mail clear",
+  "example": "/mail clear",
+  "description": "Clear all your mail messages.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/mail sendtemp</color>",
+  "usage": "/mail sendtemp [playerName] [time] [message]",
+  "example": "/mail sendtemp DorponTTB 60 Hello for 1 hour!",
+  "description": "Send a temporary mail message with a time limit.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/msg</color>",
+  "usage": "/msg [playerName] [message]",
+  "example": "/msg DorponTTB Hi!",
+  "description": "Send a private message to a player.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/nick</color>",
+  "usage": "/nick [newNickName/off]",
+  "example": "/nick MoonBorn",
+  "description": "Change your nickname or reset it.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFE3A3>/pay</color>",
+  "usage": "/pay [playerName] [amount]",
+  "example": "/pay DorponTTB 100",
+  "description": "Pay another player money.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#C7C9CA>/playtime</color>",
+  "usage": "/playtime",
+  "example": "/playtime",
+  "description": "Check how long you have played on the server.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/playtimetop</color>",
+  "usage": "/playtimetop [page]",
+  "example": "/playtimetop 1",
+  "description": "View the top players by playtime.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/prewards</color>",
+  "usage": "/prewards",
+  "example": "/prewards",
+  "description": "Claim your playtime rewards.",
+  "category": "Others"
+},
+{
+  "name": "<color=#B6E3B6>/removehome</color>",
+  "usage": "/removehome [home name]",
+  "example": "/removehome base",
+  "description": "Delete one of your saved homes.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#C7C9CA>/reply</color>",
+  "usage": "/reply [message]",
+  "example": "/reply Sure!",
+  "description": "Reply to the last private message you received.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFE3A3>/sell</color>",
+  "usage": "/sell [all/blocks/hand/same/gui/material]",
+  "example": "/sell hand",
+  "description": "Sell items from your inventory.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#C7C9CA>/sit</color>",
+  "usage": "/sit",
+  "example": "/sit",
+  "description": "Sit down in your current location.",
+  "category": "Others"
+},
+{
+  "name": "<color=#B6E3B6>/sethome</color>",
+  "usage": "/sethome [home name]",
+  "example": "/sethome base",
+  "description": "Save your current location as a home.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/tpa</color>",
+  "usage": "/tpa [playerName]",
+  "example": "/tpa DorponTTB",
+  "description": "Request to teleport to another player.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/tpaccept</color>",
+  "usage": "/tpaccept",
+  "example": "/tpaccept",
+  "description": "Accept a teleport request.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/tpahere</color>",
+  "usage": "/tpahere [playerName]",
+  "example": "/tpahere DorponTTB",
+  "description": "Request a player to teleport to you.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/tpdeny</color>",
+  "usage": "/tpdeny",
+  "example": "/tpdeny",
+  "description": "Deny a teleport request.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#C7C9CA>/votes</color>",
+  "usage": "/votes [playerName]",
+  "example": "/votes",
+  "description": "Check the number of votes a player has.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/votetop</color>",
+  "usage": "/votetop",
+  "example": "/votetop",
+  "description": "View the top voters on the server.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFE3A3>/worth</color>",
+  "usage": "/worth [all/blocks/hand/materialName]",
+  "example": "/worth hand",
+  "description": "Check the sell value of items.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/worthlist</color>",
+  "usage": "/worthlist",
+  "example": "/worthlist",
+  "description": "View the list of sell values for all items.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#A8D0FF>/ranks</color>",
+  "usage": "/ranks",
+  "example": "/ranks",
+  "description": "Teleport to the hall displaying all available ranks.",
+  "category": "General"
+},
+{
+  "name": "<color=#A8D0FF>/crates</color>",
+  "usage": "/crates",
+  "example": "/crates",
+  "description": "Teleport to the location where all crates are found.",
+  "category": "General"
+},
+{
+  "name": "<color=#A8D0FF>/store</color>",
+  "usage": "/store",
+  "example": "/store",
+  "description": "Open the LɄnit Market, the server's virtual store.",
+  "category": "General"
+},
+{
+  "name": "<color=#A8D0FF>/discord</color>",
+  "usage": "/discord",
+  "example": "/discord",
+  "description": "Get the link to join the <strong>Moon PIXELS</strong> discord.",
+  "category": "General"
+},
+{
+  "name": "<color=#A8D0FF>/vote</color>",
+  "usage": "/vote",
+  "example": "/vote",
+  "description": "Get the server voting link.",
+  "category": "General"
+},
+{
+  "name": "<color=#A8D0FF>/rules</color>",
+  "usage": "/rules",
+  "example": "/rules",
+  "description": "View the server rules.",
+  "category": "General"
+},
+{
+  "name": "<color=#7FDBFF>/quests</color>",
+  "usage": "/quests",
+  "example": "/quests",
+  "description": "Open the quests menu (daily, weekly, universal quests).",
+  "category": "Quests"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps</color>",
+  "usage": "/pwarps",
+  "example": "/pwarps",
+  "description": "Open the player warps menu.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps create</color>",
+  "usage": "/pwarps create [warp name]",
+  "example": "/pwarps create mywarp",
+  "description": "Create a new player warp.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps delete</color>",
+  "usage": "/pwarps delete [warp name]",
+  "example": "/pwarps delete mywarp",
+  "description": "Delete an existing player warp.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps edit</color>",
+  "usage": "/pwarps edit [warp name]",
+  "example": "/pwarps edit mywarp",
+  "description": "Open the warp editor for a player warp.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps warp</color>",
+  "usage": "/pwarps warp [warp name]",
+  "example": "/pwarps warp mywarp",
+  "description": "Teleport to a specific player warp.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#B6E3B6>/pwarps info</color>",
+  "usage": "/pwarps info [warp name]",
+  "example": "/pwarps info mywarp",
+  "description": "Get information about a player warp.",
+  "category": "Teleportation"
+},
+{
+  "name": "<color=#FFE3A3>/ah</color>",
+  "usage": "/ah",
+  "example": "/ah",
+  "description": "Open the auction house interface.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah expire</color>",
+  "usage": "/ah expire",
+  "example": "/ah expire",
+  "description": "View your expired auction items.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah collect</color>",
+  "usage": "/ah collect",
+  "example": "/ah collect",
+  "description": "Collect items you won or that expired in auctions.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah listed</color>",
+  "usage": "/ah listed",
+  "example": "/ah listed",
+  "description": "View items you are currently selling in auctions.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah view</color>",
+  "usage": "/ah view [player]",
+  "example": "/ah view Steve",
+  "description": "View items being sold by a specific player.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah bid</color>",
+  "usage": "/ah bid [price] [amount]",
+  "example": "/ah bid 100 2",
+  "description": "Place a bid on the item in your hand.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/ah sell</color>",
+  "usage": "/ah sell [price] [amount]",
+  "example": "/ah sell 50 1",
+  "description": "Sell the item in your hand via the auction house.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#C7C9CA>/geyser offhand</color>",
+  "usage": "/geyser offhand",
+  "example": "/geyser offhand",
+  "description": "Switch the current item to offhand (Bedrock/Pocket Edition players).",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/geyser ping</color>",
+  "usage": "/geyser ping",
+  "example": "/geyser ping",
+  "description": "Show accurate ping for Bedrock/Pocket Edition players.",
+  "category": "Others"
+},
+{
+  "name": "<color=#C7C9CA>/pvp</color>",
+  "usage": "/pvp [on/off]",
+  "example": "/pvp on",
+  "description": "Toggle your PvP status.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFDD57>/abandonclaim</color>",
+  "usage": "/abandonclaim",
+  "example": "/abandonclaim",
+  "description": "Delete the land claim you are standing in.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/claimexplosions</color>",
+  "usage": "/claimexplosions",
+  "example": "/claimexplosions",
+  "description": "Toggle explosions inside your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/trust</color>",
+  "usage": "/trust [player]",
+  "example": "/trust Steve",
+  "description": "Allow a player to build and edit in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/untrust</color>",
+  "usage": "/untrust [player]",
+  "example": "/untrust Steve",
+  "description": "Remove a player's build permissions in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/accesstrust</color>",
+  "usage": "/accesstrust [player]",
+  "example": "/accesstrust Steve",
+  "description": "Allow a player to use buttons, levers, and beds in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/containertrust</color>",
+  "usage": "/containertrust [player]",
+  "example": "/containertrust Steve",
+  "description": "Allow a player to use containers, animals, and interact with mechanisms in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/trustlist</color>",
+  "usage": "/trustlist",
+  "example": "/trustlist",
+  "description": "View the list of players trusted in your current claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/subdivideclaims</color>",
+  "usage": "/subdivideclaims",
+  "example": "/subdivideclaims",
+  "description": "Enable subdivision mode for your shovel to create subclaims.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/restrictsubclaim</color>",
+  "usage": "/restrictsubclaim",
+  "example": "/restrictsubclaim",
+  "description": "Make a subclaim inherit no permissions from its parent claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/basicclaims</color>",
+  "usage": "/basicclaims",
+  "example": "/basicclaims",
+  "description": "Switch your shovel back to basic claim mode.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/permissiontrust</color>",
+  "usage": "/permissiontrust [player]",
+  "example": "/permissiontrust Steve",
+  "description": "Allow a player to share their permission level with others in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/untrust all</color>",
+  "usage": "/untrust all",
+  "example": "/untrust all",
+  "description": "Remove all permissions from all players in your claim.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/abandonallclaims</color>",
+  "usage": "/abandonallclaims",
+  "example": "/abandonallclaims",
+  "description": "Delete all your land claims.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/buyclaimblocks</color>",
+  "usage": "/buyclaimblocks [amount]",
+  "example": "/buyclaimblocks 100",
+  "description": "Convert server money to claim blocks.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/sellclaimblocks</color>",
+  "usage": "/sellclaimblocks [amount]",
+  "example": "/sellclaimblocks 50",
+  "description": "Convert claim blocks back to server money.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#FFDD57>/claimslist</color>",
+  "usage": "/claimslist [player]",
+  "example": "/claimslist Steve",
+  "description": "View a player's claims and claim block details.",
+  "category": "Landclaim"
+},
+{
+  "name": "<color=#C7C9CA>/trapped</color>",
+  "usage": "/trapped",
+  "example": "/trapped",
+  "description": "Get out of a land claim where you are trapped.",
+  "category": "Others"
+},
+{
+  "name": "<color=#FFE3A3>/chestshop create</color>",
+  "usage": "/chestshop create [shop-name]",
+  "example": "/chestshop create myshop",
+  "description": "Create a new chest shop.",
+  "category": "Economy"
+},
+{
+  "name": "<color=#FFE3A3>/chestshop add</color>",
+  "usage": "/chestshop add [shop] [player]",
+  "example": "/chestshop add myshop Steve",
+  "description": "Allow a player to refill stock in your chest shop.",
+  "category": "Economy"
+}]

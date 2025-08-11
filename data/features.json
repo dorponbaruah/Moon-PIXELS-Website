@@ -1,0 +1,22 @@
+[
+{
+  "name": "<gradient=#bfeaff, #0aadff>Universal Crossplay</gradient>",
+  "stopglow": "#0aadff",
+  "description": "A shared world for <span style=\"color: #ffaa00;\">Java</span> and <span style=\"color: #55ffff;\">Bedrock</span> — with <span style=\"color: #ff5555;\">cracked support</span> so everyone can join.<br><br><span style=\"color: #55ffff;\">Bedrock</span> connects on port <strong style=\"color: #78E4FF;\">19132</strong>."
+},
+{
+  "name": "<gradient=#ffc9b3, #ff6929, #ff5d17>Core Elements</gradient>",
+  "stopglow": "#ff6929",
+  "description": "Unlock <span style=\"color: #ff8324;\">crates</span>, claim your <span style=\"color: #fff345;\">land</span>, take on <span style=\"color: #45ffa2;\">quests</span>, and earn <span style=\"color: #ff75ed;\">ranks</span>, <span style=\"color: #45b5ff;\">kits</span>, and <span style=\"color: #a5ff57;\">rewards</span>. Every step shapes your SMP journey."
+},
+{
+  "name": "<gradient=#C3FAC9, #00F518>Economy</gradient>",
+  "stopglow": "#00F518",
+  "description": "<strong><span style=\"color: #14c729;\">LɄnits</span></strong> (<strong><span style=\"color: #e3f3ff;\">Lunar Units</span></strong>) fuel the economy — buy from <span style=\"color: #F4A261;\">Chest Shops</span>, trade in the <span style=\"color: #64B5F6;\">Auction House</span>, and purchase <span style=\"color: #e3f3ff;\">ranks</span>, <span style=\"color: #e3f3ff;\">crate keys</span>, and more from the <span style=\"color: #14c729;\">LɄnit</span> <span style=\"color: #c963ff;\">Market</span>. Build your wealth and influence."
+},
+{
+  "name": "<gradient=#ff8080, #ff2b2b, #ff0808>PvP Arenas</gradient>",
+  "stopglow": "#ff2b2b",
+  "description": "Enter <strong><span style=\"color: #ff7373;\">PvP Arenas</span></strong> where keep inventory is off and battles are <span style=\"color: #ff4f4f;\">high-stakes</span>. PvP <span style=\"color: #55ffff;\">auto-activates</span> on entry, locking you in until the fight ends — from tense <strong>1v1 duels</strong> to chaotic <strong>16-player clashes</strong>."
+}
+]
