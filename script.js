@@ -238,3 +238,13 @@ loadJSON("data/commands.json", data => {
     });
   }
 });
+
+// if URL has a #, scroll to that section on load
+window.addEventListener("load", function() {
+  if (window.location.hash) {
+    const target = document.querySelector(window.location.hash);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+});
