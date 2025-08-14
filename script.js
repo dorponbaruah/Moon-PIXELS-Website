@@ -72,13 +72,15 @@ function drawStars() {
 }
 drawStars();
 
-// load json data
-function loadJSON(url, callback) {
+// load json + return promise
+const loadJSONPromise = (url, callback) =>
   fetch(url)
-    .then(res => res.json())
-    .then(data => callback(data))
-    .catch(err => console.error(`Error loading ${url}:`, err));
-}
+  .then(response => response.json())
+  .then(data => {
+    callback(data);
+    return data;
+  })
+  .catch(error => console.error(`Error loading ${url}:`, error));
 
 // features render
 function renderFeatures(features) {
@@ -213,34 +215,33 @@ function filterCommands() {
 if (searchInput) searchInput.addEventListener("input", filterCommands);
 if (categoryFilter) categoryFilter.addEventListener("change", filterCommands);
 
-// init load
-loadJSON("data/features.json", renderFeatures);
-loadJSON("data/ranks.json", renderRanks);
-loadJSON("data/commands.json", data => {
-  allCommands = data.sort((a, b) => {
-    const nameA = a.name.replace(/<[^>]*>/g, "");
-    const nameB = b.name.replace(/<[^>]*>/g, "");
-    return nameA.localeCompare(nameB);
-  });
-  renderCommands(allCommands);
-  
-  if (categoryFilter) {
-    let cats = [...new Set(data.map(c => c.category))];
-    cats = cats.filter(c => c.toLowerCase() !== "others").sort((a, b) => a.localeCompare(b));
-    if (cats.includes("Others") || data.some(c => c.category.toLowerCase() === "others")) {
-      cats.push("Others");
-    }
-    cats.forEach(cat => {
-      const opt = document.createElement("option");
-      opt.value = cat;
-      opt.textContent = cat;
-      categoryFilter.appendChild(opt);
+// load all sections first, then handle hash scroll
+Promise.all([
+  loadJSONPromise("data/features.json", renderFeatures),
+  loadJSONPromise("data/ranks.json", renderRanks),
+  loadJSONPromise("data/commands.json", data => {
+    allCommands = data.sort((a, b) => {
+      const nameA = a.name.replace(/<[^>]*>/g, "");
+      const nameB = b.name.replace(/<[^>]*>/g, "");
+      return nameA.localeCompare(nameB);
     });
-  }
-});
-
-// if URL has a #, scroll to that section on load
-window.addEventListener("load", function() {
+    renderCommands(allCommands);
+    
+    if (categoryFilter) {
+      let cats = [...new Set(data.map(c => c.category))];
+      cats = cats.filter(c => c.toLowerCase() !== "others").sort((a, b) => a.localeCompare(b));
+      if (cats.includes("Others") || data.some(c => c.category.toLowerCase() === "others")) {
+        cats.push("Others");
+      }
+      cats.forEach(cat => {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        categoryFilter.appendChild(opt);
+      });
+    }
+  })
+]).then(() => {
   if (window.location.hash) {
     const target = document.querySelector(window.location.hash);
     if (target) {
